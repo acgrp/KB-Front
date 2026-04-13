@@ -49,12 +49,9 @@ const requestAPI = () => {
       axios.get('/api/todos/' + id).then((res) => {
         console.log('##  두 번째 Todo : ', res.data);
       });
-<<<<<<< HEAD
     })
     .catch((err) => {
       console.log(err);
-=======
->>>>>>> 35bbf7a35a7366f17dd8f7b0bfddc28d439781d3
     });
 };
 
